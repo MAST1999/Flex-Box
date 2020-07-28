@@ -23,3 +23,14 @@ As the name suggests it wraps the box if the size of elements exceed the browser
 - wrap-reverse
 - and a few more
 
+## Justify Content
+
+The `justify-content` property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
+
+Use the align-items property to align the items vertically.
+
+## Align Items / Align Content
+
+The `align-items` property specifies the default alignment fot items inside the flexible container.
+
+Use the align-self property od each item to override the `align-items` property.
