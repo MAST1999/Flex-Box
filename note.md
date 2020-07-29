@@ -34,3 +34,9 @@ Use the align-items property to align the items vertically.
 The `align-items` property specifies the default alignment fot items inside the flexible container.
 
 Use the align-self property od each item to override the `align-items` property.
+
+The `align-content` property modifies the behavior of the `flex-wrap` property. Ut us similar to `align-items`, but instead of aligning flex items, it aligns flex lines.
+
+There must be multiple lines of items for this property to have any effect.
+
+Use the `justify-content` property to align the items on the main-axis(horizontally).

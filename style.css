@@ -1,95 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,500;1,800&display=swap");
 * {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Playfair Display", serif;
 }
-img {
-  height: 180px;
-  width: 200px;
+/* <!-- Navigation --> */
+menu {
+  background-color: #221f1f;
+  padding: 1rem;
+  box-shadow: 0px 0px 10px 5px rgb(0, 0, 0);
+}
+menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-h1 {
-  color: white;
-  background-color: rgb(58, 56, 56);
-  font-size: 3rem;
-  text-align: center;
+menu li {
+  margin: .5rem;
+  border: 1px solid rgb(138, 17, 17);
+  font-size: 2em;
+  box-shadow: 0px 0px 10px 5px rgba(122, 38, 38, 0.9);
 }
-h2 {
-  font-size: 2rem;
-  text-align: center;
-  background-color: khaki;
+menu a {
+  color: rgb(184, 177, 177);
+  padding: .2rem;
+  text-decoration: none;
 }
-
-/* Flex box starts here! */
-.flex-direction {
-  display: flex;
-  /* flex-direction: column; */
-  flex-direction: row-reverse;
-}
-.flex-wrap {
-  display: flex;
-  flex-wrap: wrap;
-}
-.justify-content {
-  display: flex;
-  /* justify-content: center; */
-  justify-content: space-between;
-}
-.align-items {
-  padding: 0.5rem;
-}
-.align-items {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.align-items img:first-child {
-  height: 250px;
-}
-.align-items img:nth-child(2) {
-  height: 300px;
-}
-.align-items img:nth-child(3) {
-  height: 350px;
-}
-.align-items img:nth-child(4) {
-  height: 250px;
-}
-.align-items img:nth-child(5) {
-  height: 180px;
-}
-/* .align-items img:nth-child(6) {
-  height: 300px;
-} */
-.align-items img:last-child {
-  height: 100px;
-}
-
-.align-content img {
-  padding: 0.5rem;
-}
-.align-content img:first-child {
-  height: 250px;
-}
-.align-content img:nth-child(2) {
-  height: 300px;
-}
-.align-content img:nth-child(3) {
-  height: 350px;
-}
-.align-content img:nth-child(4) {
-  height: 250px;
-}
-.align-content img:nth-child(5) {
-  height: 180px;
-}
-/* .align-content img:nth-child(6) {
-  height: 300px;
-} */
-.align-content img:last-child {
-  height: 100px;
-}
-.align-content {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-}
+/* <!-- Header + Content --> */
+/* <!-- About --> */
+/* <!-- Contact --> */
+/* <!-- Footer --> */
